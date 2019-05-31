@@ -5,7 +5,7 @@ import CounterComponent from "../CounterComponent.vue";
 
 describe("test Counter Component", () => {
 
-  test("should component has count props", () => {
+  test("should component have count prop", () => {
     const wrapper = shallowMount(CounterComponent, {
       propsData: {
         count: 6
